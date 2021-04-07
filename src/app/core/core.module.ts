@@ -12,7 +12,7 @@ import { NavBarComponent } from "./component/nav-bar/nav-bar.component";
         RouterModule.forChild([
             {
                 path: '**', component: Error404Component
-              }
+            }
         ])
     ],
     exports: [
@@ -22,4 +22,4 @@ import { NavBarComponent } from "./component/nav-bar/nav-bar.component";
 
 export class CoreModule {
 
-    }
+}
