@@ -20,11 +20,11 @@ import { CourseListComponent } from "./course-list.component";
         RouterModule.forChild([
             {
                 path: 'courses', component: CourseListComponent
-            },
-            {
+              },
+              {
                 path: 'courses/info/:id', component: CourseInfoComponent
-            }
-        ])
+              }
+    ])
 
     ]
 })

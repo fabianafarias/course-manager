@@ -21,7 +21,7 @@ import { CoreModule } from './core/core.module';
     RouterModule.forRoot([
       {
         path: '', redirectTo: 'courses', pathMatch: 'full'
-      }
+      }    
     ])
   ],
   providers: [],
