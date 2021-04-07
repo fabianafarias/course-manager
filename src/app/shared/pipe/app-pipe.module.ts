@@ -11,5 +11,5 @@ import { ReplacePipe } from "./replace.pipe";
 
 })
 export class AppPipeModule {
-
+    
 }
